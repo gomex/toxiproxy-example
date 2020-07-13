@@ -1,5 +1,9 @@
 # toxiproxy-example
 
+## Objetivo
+
+Uma forma mais simples de executar o [toxiproxy](https://github.com/Shopify/toxiproxy)
+
 ## Como usar
 
 ### Configure seu toxiproxy

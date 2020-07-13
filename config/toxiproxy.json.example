@@ -1,0 +1,14 @@
+[
+    {
+      "name": "web_dev_frontend_1",
+      "listen": "[::]:18080",
+      "upstream": "webapp:8080",
+      "enabled": true
+    },
+    {
+      "name": "web_dev_mysql_1",
+      "listen": "[::]:13306",
+      "upstream": "database:3306",
+      "enabled": true
+    }
+  ]

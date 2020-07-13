@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  toxiproxy:
+    image: shopify/toxiproxy
+    volumes:
+        - ./config:/config
+    ports:
+     - 18080:18080
+     - 13306:13306
+    command: -config /config/toxiproxy.json
+  mysql:
+    image: mysql
+    environment: 
+      - MYSQL_RANDOM_ROOT_PASSWORD=true
+  
